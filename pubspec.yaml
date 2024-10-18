@@ -1,0 +1,45 @@
+name: mi_card
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  pdf: ^3.11.1
+  printing: ^5.13.3
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - profile_pic/char.jpg
+    - assets/resume.svg
+  fonts:
+    - family: Sevillana
+      fonts:
+        - asset: font/Sevillana-Regular.ttf
+    - family: SourceSans3
+      fonts:
+        - asset: font/SourceSans3-VariableFont_wght.ttf
+
